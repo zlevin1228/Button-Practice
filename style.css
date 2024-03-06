@@ -1,0 +1,214 @@
+html {
+  background-image:linear-gradient(to bottom right,darkviolet,darkblue,darkgreen,#bdbd00, orange, red);
+  background-repeat:no-repeat;
+}
+
+button {
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  border-width:20px;
+  border-color:black white black white ;
+  display:block;
+  text-align:center;
+  margin:auto;
+  box-shadow: 15px 15px 15px black;
+}
+
+#red {
+  color:white;
+  background-image:linear-gradient(orangered,darkred,orangered);
+}
+
+#red:link {
+  background-color:red;
+  color:white;
+}
+
+#red:visited {
+  background-color:white;
+  color:red;
+}
+
+#red:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(giphy.gif);
+  background-color:#ff5c5c;
+  color:white;
+}
+
+#red:active {
+  background-color:#e00000;
+  color:white;
+}
+
+#orange {
+  background-image:linear-gradient(orange,#cc7000,orange);
+  color:white;
+}
+
+#orange:link {
+  background-color:orange;
+  color:white;
+}
+
+#orange:visited {
+  background-color:white;
+  color:orange;
+}
+
+#orange:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(trump.gif);
+  color:white;
+}
+
+#orange:active {
+  background-color:#bd6800;
+  color:white;
+}
+
+#yellow {
+  background-image:linear-gradient(yellow,goldenrod,yellow);
+  color:white;
+}
+
+#yellow:link {
+  background-color:yellow;
+  color:white;
+}
+
+#yellow:visited {
+  background-color:white;
+  color:yellow;
+}
+
+#yellow:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(dancing-triangle-dancing.gif);
+  color:white;
+}
+
+#yellow:active {
+  background-color:#c2c200;
+  color:white;
+}
+
+#green {
+  background-image:linear-gradient(lime,#009e00,lime);
+  color:white;
+}
+
+#green:link {
+  background-color:#00a300;
+  color:white;
+}
+
+#green:visited {
+  background-color:white;
+  color:#00a300;
+}
+
+#green:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(green.gif);
+  color:white;
+}
+
+#green:active {
+  background-color:#025a02;
+  color:white;
+}
+
+#blue {
+  background-image:linear-gradient(skyblue,blue,skyblue);
+  color:white;
+}
+
+#blue:link {
+  background-color:blue;
+  color:white;
+}
+
+#blue:visited {
+  background-color:white;
+  color:blue;
+}
+
+#blue:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(cookie-monster-eating-cookies.gif);
+  color:white;
+}
+
+#blue:active {
+  background-color:#0101d0;
+  color:white;
+}
+
+#indigo {
+  background-image:linear-gradient(#7100c2,indigo,#7100c2);
+  color:white;
+}
+
+#indigo:link {
+  background-color:indigo;
+  color:white;
+}
+
+#indigo:visited {
+  background-color:white;
+  color:indigo;
+}
+
+#indigo:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(barney.gif);
+}
+
+#indigo:active {
+  background-color:#3b0066;
+  color:white;
+}
+
+#violet {
+  background-image:linear-gradient(hotpink,violet,hotpink);
+  color:white;
+}
+
+#violet:link {
+  background-color:violet;
+  color:white;
+}
+
+#violet:visited {
+  background-color:white;
+  color:violet;
+}
+
+#violet:hover {
+  text-align: center;
+  background-size: 200px 200px;
+  background-image: url(pinkguy.gif);
+  color:white;
+}
+
+#violet:active {
+  background-color:#ec6fec;
+  color:white;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+}
